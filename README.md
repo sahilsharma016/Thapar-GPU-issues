@@ -30,7 +30,7 @@ conda create -n your_env_name python= your_Req_version
 
 It should look like “(sahil) root@machine_name:/# ”
 
-install jupyter-kernel and launch
+**install jupyter-kernel and launch**
 
 10)	 conda install ipykernel
 11)	python -m ipykernel install --user --name=the_kernel_name --display-name "the_name_That_Display_on_notebook_kernel" 	
