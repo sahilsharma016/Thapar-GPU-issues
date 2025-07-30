@@ -37,7 +37,8 @@ install jupyter-kernel and launch
 
 **Example** “python -m ipykernel install --user --name=sahil --display-name "Python (sahil)"”
 Select the install kernel to run jupyter file in env 
- 
+ <img width="940" height="498" alt="image" src="https://github.com/user-attachments/assets/35f5e48c-ff2e-4058-b037-f26ad7ca8fe1" />
+
 
 
 Install req libraries by “conda install lib_name”
