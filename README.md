@@ -1,4 +1,4 @@
 # Thapar-GPU-issues
-Error resolved 
+## Error resolved 
 
 How to activate Virtual env in Jupyter notebook
