@@ -1,13 +1,12 @@
 # Thapar-GPU-issues
 
+### How to activate Virtual env in Jupyter notebook
 
-How to activate Virtual env in Jupyter notebook
-Install env with conda
 
 1)	apt update & apt upgrade
 2)	Follow instructions https://www.anaconda.com/docs/getting-started/miniconda/install#linux-terminal-installer
 
-a.	Or run command in terminal  directly “ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh ”
+Or run command in terminal  directly “ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh ”
 
 3)	bash Miniconda3-latest-Linux-x86_64.sh
 4)	export PATH="$HOME/miniconda3/bin:$PATH"
