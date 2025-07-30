@@ -15,6 +15,7 @@ Or run command in terminal  directly “ wget https://repo.anaconda.com/minicond
 6)	check conda is installed properly or not  
 
 a.	conda –version
+
 b.	conda list 
 If no output , it mean conda is not installed.
 
