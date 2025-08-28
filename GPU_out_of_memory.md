@@ -12,16 +12,19 @@ If above is the case then
 **Solutions**
 
 1) Empty cuda reseve/buffer memory
+   
 import torch
 torch.cuda.empty_cache()  
 
-2) Do nvidia-smi and check buffer memory again
-3) still its not reducing, then disconnect kernel from left top
+3) Do nvidia-smi and check buffer memory again
+4) still its not reducing, then disconnect kernel from left top
 
 **Allocate memory so that GPU can't use all GPU memory**
 
 import torch
+
 this allow this process to use only 50% of GPU memory
+
 torch.cuda.set_per_process_memory_fraction(0.5, device=0)
 
 **Follow a/c for tensorflow
