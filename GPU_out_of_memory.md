@@ -14,6 +14,7 @@ If above is the case then
 1) Empty cuda reseve/buffer memory
    
 import torch
+
 torch.cuda.empty_cache()  
 
 3) Do nvidia-smi and check buffer memory again
