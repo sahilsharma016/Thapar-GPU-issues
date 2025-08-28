@@ -20,7 +20,7 @@ torch.cuda.empty_cache()
 3) Do nvidia-smi and check buffer memory again
 4) still its not reducing, then disconnect kernel from left top
 
-**Allocate memory so that GPU can't use all GPU memory**
+**Allocate memory so that it can't use all GPU memory**
 
 import torch
 
