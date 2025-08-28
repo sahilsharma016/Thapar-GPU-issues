@@ -28,5 +28,6 @@ this allow this process to use only 50% of GPU memory
 
 torch.cuda.set_per_process_memory_fraction(0.5, device=0)
 
-**Follow a/c for tensorflow
+**Follow a/c for tensorflow**
+
 https://www.tensorflow.org/api_docs/python/tf/config/experimental/set_memory_growth
