@@ -27,6 +27,7 @@ conda create -n your_env_name python= your_Req_version
 8)	conda init 
 9)	conda activate your_env_name
 **Example** “conda activate sahil”
+  if not then close the current terminal then activate env in new terminal 
 
 It should look like “(sahil) root@machine_name:/# ”
 
