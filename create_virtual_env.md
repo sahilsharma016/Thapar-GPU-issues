@@ -17,7 +17,7 @@ Or run command in terminal  directly “ wget https://repo.anaconda.com/minicond
       a) conda –version
 
       b) conda list 
-If no output , it mean conda is not installed.
+   If no output , it mean conda is not installed.
 
 7 ) create virtual env 
 
@@ -27,6 +27,7 @@ conda create -n your_env_name python= your_Req_version
 8)	conda init 
 9)	conda activate your_env_name
 **Example** “conda activate sahil”
+
   if not then close the current terminal then activate env in new terminal 
 
 It should look like “(sahil) root@machine_name:/# ”
